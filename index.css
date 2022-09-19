@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.wrapper{
+    margin: 0 auto;
+    height: 680px;
+    width: 1200px;
+    position: relative;
+}
+.gameAera .textScore{
+    position: absolute;
+    bottom: -40px;
+    right:40px;
+    font-size: 30px;
+    font-weight:bold;
+    color:black;
+    text-align: center;
+}
+.gameAera .actScore{
+    position: absolute;
+    bottom: -40px;
+    right: 0px;
+    font-size: 30px;
+    font-weight:bold;
+    color:black;
+    text-align: center;
+
+}
+.wrapper .gameAera{
+    width: 1200px;
+    height: 600px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-49%);
+    border: 5px solid black;
+}
+.wrapper .startGame{
+    width: 200px;
+    height: 200px;
+    background-image: url('./start.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    cursor: pointer;
+}
+#snakeBlock{
+    position: relative;
+    width: 40px;
+    height: 40px;
+    background-color: transparent;
+}
+
+#snakeHead{
+    display: block;
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background-color: lightskyblue;
+    border-radius: 15px 70% 70% 15px;
+    background-size: 100%;
+    background-repeat: no-repeat; 
+}
+.snakeBody{
+    display: block;
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background-color: yellow;
+    border-radius: 15px;
+}
+
+.wrapper .gameAera .apple{
+    height: 40px;
+    width: 40px;
+    background-color: red;
+    border-radius: 50%;
+    position: absolute;
+
+}
